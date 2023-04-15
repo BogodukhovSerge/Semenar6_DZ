@@ -29,7 +29,7 @@ int MetodCount(int[] array)
     int count = 0;
     for ( int i = 0; i <= array.Length; i++)
     {
-        if (i > 0)
+        if (array[i] > 0)
         {
             count ++;
         }
